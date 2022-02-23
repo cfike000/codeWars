@@ -1,0 +1,8 @@
+function squareDigits(num){
+  let ans = []
+ let arr = num.toString().split('')
+  arr.forEach((x,i) => {
+   ans.push(Math.pow(x, 2))
+  })
+  return parseInt(ans.join(''))
+}

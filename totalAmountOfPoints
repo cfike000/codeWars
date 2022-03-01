@@ -1,0 +1,11 @@
+function points(games) {
+  let score = 0
+  games.forEach(x = x => {
+    if(x[0] > x[2]){
+      score += 3
+    }else if(x[0] == x[2]){
+      score++
+    }
+  })
+  return score
+} 
